@@ -1,7 +1,6 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import InputBox from "./components/InputBox";
 import useCurrencyInfo from "./hooks/useCurrencyInfo";
-import currenyImg from "./assets/currency.jpg";
 
 function App() {
   const [from, setFrom] = useState("usd");
@@ -35,7 +34,7 @@ function App() {
       <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-          backgroundImage: `url(${currenyImg})`,
+          backgroundImage: `url("https://res.cloudinary.com/dekvyca5r/image/upload/v1771776641/currency_cvvfxh.webp")`,
         }}
       >
         <div className="w-full">
@@ -75,12 +74,6 @@ function App() {
                   amountDisable
                 />
               </div>
-              <button
-                type="submit"
-                className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg cursor-pointer hover:bg-green-600"
-              >
-                Convert from {from.toUpperCase()} to {to.toUpperCase()}
-              </button>
             </form>
           </div>
         </div>
