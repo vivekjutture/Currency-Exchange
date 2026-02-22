@@ -34,7 +34,7 @@ function App() {
       <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-          backgroundImage: `url("https://res.cloudinary.com/dekvyca5r/image/upload/v1771776641/currency_cvvfxh.webp")`,
+          backgroundImage: `url("https://res.cloudinary.com/vivekjutture/image/upload/v1771776641/currency_cvvfxh.webp")`,
         }}
       >
         <div className="w-full">
