@@ -1,4 +1,4 @@
-# 💱 Currency Exchange App
+# 💱 ForexFlow App
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -13,7 +13,7 @@ A high-performance **Single Page Application (SPA)** designed to handle real-tim
 
 ## 🔍 Project Overview
 
-The Currency Exchange Web App allows users to:
+The ForexFlow Web App allows users to:
 - Input an amount
 - Select a base currency
 - Select a target currency
@@ -50,7 +50,7 @@ This project is ideal for showcasing **frontend fundamentals**, **API consumptio
 
 ## 📂 Project Structure
 ```bash
-Currency-Exchange/
+ForexFlow/
 ├── public/              # Static assets
 ├── src/
 │   ├── components/      # Reusable UI components (InputBox, etc.)
@@ -78,13 +78,13 @@ Currency-Exchange/
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/vivekjutture/Currency-Exchange.git
+    git clone https://github.com/vivekjutture/ForexFlow.git
     ```
 
 2. **Navigate to the Project Directory**
 
     ```bash
-    cd Currency-Exchange
+    cd ForexFlow
     ```
 
 3.  **Install dependencies**
@@ -106,7 +106,7 @@ Currency-Exchange/
 
 ## 🌐 Live Demo
 
-🔗 Live Demo: https://vivekjutture.github.io/Currency-Exchange
+🔗 Live Demo: https://vivekjutture.github.io/ForexFlow
 
 ---
 
