@@ -34,7 +34,7 @@ function App() {
       <div
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
-          backgroundImage: `url("")`,
+          backgroundImage: `url("https://ik.imagekit.io/vivekjutture/Currency_Converter/currencies.webp")`,
         }}
       >
         <div className="w-full">
